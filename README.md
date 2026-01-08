@@ -18,7 +18,7 @@ A comprehensive web application that evaluates password strength in real-time wi
 - **API**: Have I Been Pwned API for breach checking
 - **Architecture**: MVC pattern with async API calls
 
-### Prerequisites
+## Prerequisites
 - Python 3.8 or higher
 - pip (Python package manager)
 
@@ -89,7 +89,7 @@ The application will start on `http://127.0.0.1:5000`
    - Whether the password has been in a breach
 4. Use the suggestions to improve your password
 
-## 🔒 Security Features
+## Security Features
 
 ### 1. Length Analysis
 - Minimum: 8 characters
@@ -122,7 +122,7 @@ The application will start on `http://127.0.0.1:5000`
 - K-anonymity model: only first 5 characters of SHA-1 hash sent
 - Your full password NEVER sent to external servers
 
-## 📊 Scoring System
+## Scoring System
 
 | Score Range | Level | Recommendation |
 |-------------|-------|-----------------|
