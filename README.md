@@ -18,6 +18,10 @@ A comprehensive web application that evaluates password strength in real-time wi
 - **API**: Have I Been Pwned API for breach checking
 - **Architecture**: MVC pattern with async API calls
 
+### Prerequisites
+- Python 3.8 or higher
+- pip (Python package manager)
+
 ## Dependencies
 - **Flask==2.3.3**: Web framework
 - **requests==2.31.0**: HTTP library for breach checking
@@ -43,10 +47,6 @@ password_analyzer/
 │
 └── README.md                       # This file
 ```
-
-### Prerequisites
-- Python 3.8 or higher
-- pip (Python package manager)
 
 ### Step 1: Clone/Create Project Directory
 ```bash
@@ -77,7 +77,7 @@ python app.py
 
 The application will start on `http://127.0.0.1:5000`
 
-## 💻 Usage
+## Usage
 
 1. Open your browser and navigate to `http://localhost:5000`
 2. Enter a password in the input field
